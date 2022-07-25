@@ -3,7 +3,7 @@ import { Container, Form, Button, Navbar, Nav, NavDropdown, Offcanvas } from "re
 function NavigationBar() {
     return (
         <>
-            {["md"].map((expand) => (
+            {["lg"].map((expand) => (
                 <Navbar key={expand} bg='light' expand={expand} className='mb-3'>
                     <Container fluid>
                         <Navbar.Brand href='#'>Bromans</Navbar.Brand>

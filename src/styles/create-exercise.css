@@ -1,0 +1,24 @@
+.create-exercise-container {
+    padding: 0 2rem;
+}
+
+.create-exercise-field {
+    margin-bottom: 1rem !important;
+}
+
+@media only screen and (min-width: 768px) {
+    .create-exercise-container {
+        padding: 0;
+        max-width: 350px;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+}
+
+@media only screen and (min-width: 1440px) {
+}
+
+@media only screen and (min-width: 2560px) {
+}
